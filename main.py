@@ -218,7 +218,7 @@ def calculate_lost_profit(petrol_prices:  Dict[str, float],
                   f"{lcl.LOST} ~{lost_volume:.1f} {lcl.LITERS} "
                   f"{lcl.LOST_REVENUE} ~{lost_revenue:.2f} {lcl.RUBLES}")
 
-    print(f"\n{lcl.TOTAL_REVENUE} {total_lost_volume:.1f} {lcl.LITERS} "
+    print(f"\n{lcl.TOTAL_LOST} {total_lost_volume:.1f} {lcl.LITERS} "
           f"{lcl.LOST_REVENUE} {total_lost_revenue:.2f} {lcl.RUBLES}")
 
     print(f"\n{lcl.ANALYZE_NEW_COLUMN}")
